@@ -11,7 +11,7 @@ module WebSocket
   end
 
   module Frame
-    class Data
+    class Data < String
       def mask_native(payload, mask)
         ::WebSocket::Native::Data.mask(payload, mask)
       end
