@@ -1,6 +1,6 @@
 # WebSocket Ruby Native Extension
 
-- Travis CI build: [![](http://travis-ci.org/imanel/websocket-ruby-native.png)](http://travis-ci.org/imanel/websocket-ruby-native)
+- Travis CI build: [![Build Status](https://travis-ci.org/imanel/websocket-ruby-native.png)](http://travis-ci.org/imanel/websocket-ruby-native)
 - Autobahn tests: [server](http://imanel.github.com/websocket-ruby/autobahn/server/), client
 
 This gem adds native C and Java extensions for [WebSocket gem](http://github.com/imanel/websocket-ruby). Difference between using it and staying with pure Ruby implementation is about 25%(more accurate data are available in autobahn test results)
